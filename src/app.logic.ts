@@ -21,3 +21,4 @@ const outputPath = 'outputs'
 
 fs.mkdirSync(outputPath, { recursive: true })
 fs.writeFileSync(`${outputPath}/tabla-${base}.txt`, outputMessage);
+console.log('File created');
